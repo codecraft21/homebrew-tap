@@ -1,25 +1,25 @@
 class KeystoreTui < Formula
   desc "Read-only terminal UI for inspecting JKS, JCEKS, and PKCS12 keystores, certificates, and certificate requests"
   homepage "https://github.com/codecraft21/keystore-tui"
-  version "1.0.1"
+  version "1.0.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.0.1/keystore-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "774f698744a9e172405cd7991824dec49033894a7001b21dae3a36c032c6e5fe"
+      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.0.3/keystore-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "a2fe4b2057947331f97904117c32a256f90b3adf1e73e9d41a8edb9db53e938c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.0.1/keystore-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "4c2ffbc92ec53ff824a3cd1cf9670169b56fc5a6bc2525536340a4cf1d3fde34"
+      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.0.3/keystore-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "4b65f0557c547f7fc57cb9145fb7c842e7d2020ca10212efc27034828a179d37"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.0.1/keystore-tui-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "077dcd9c71c57248b64bd020fb6c67710092a56baff8354fbfc23f6b9f9467d9"
+      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.0.3/keystore-tui-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "10a38edc22e2ee681abeef710bed1186021a0b39452d0a13b6ee7584db67ee8f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.0.1/keystore-tui-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "458b396b6b3f9715b8d64293df64b71c415616bb702e9ffb24670f8af47c7da1"
+      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.0.3/keystore-tui-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "cf4e99e00dedc37a6ff3b4ff4fa95bbb1f599f2e2a276d8486565f5bb83f4d59"
     end
   end
   license "Apache-2.0"
