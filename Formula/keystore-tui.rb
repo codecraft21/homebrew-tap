@@ -1,25 +1,25 @@
 class KeystoreTui < Formula
-  desc "Read-only terminal UI for inspecting JKS, JCEKS, and PKCS12 keystores, certificates, and certificate requests"
+  desc "Terminal UI for inspecting JKS, JCEKS, and PKCS12 keystores, certificates, and certificate requests"
   homepage "https://github.com/codecraft21/keystore-tui"
-  version "1.0.4"
+  version "1.1.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.0.4/keystore-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "0d86c29c37be32cafedb60336a46db8075f721d1200fa8bd08e44b008b4c27c5"
+      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.1.0/keystore-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "49a66a4977b73c1d80276e3e1a3a257bb18684883878d0d5d50af2506e28a78b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.0.4/keystore-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "badd25f4146b4019c2d25a2b2f649e5722a391e58aac91db649122e087eba83b"
+      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.1.0/keystore-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "1dec085924c2df0a09ea8c5aca16240367706da7b539dce054f295773245ff66"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.0.4/keystore-tui-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "812877e509000a850ac3b2264d16cb62ac2e87ff36d99e450d0ad82851691324"
+      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.1.0/keystore-tui-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "5f24bb97dcb513d15d7dd5f1e9a98ddd2ba49d53726089da86bb43db277c2ba6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.0.4/keystore-tui-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "e628cc0d2d469137e9bc22b60d37532d9b56191984f8bb2537f15262b198cfab"
+      url "https://github.com/codecraft21/keystore-tui/releases/download/v1.1.0/keystore-tui-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "e2bc80cf6a509b8e7ce97ae4fa0a412450287c735af2023749339aea75ae5fa6"
     end
   end
   license "Apache-2.0"
